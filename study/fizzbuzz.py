@@ -17,4 +17,3 @@ for idx in range(1, maxIdx+1):
     # 行末の改行表示
     print()
 
-
