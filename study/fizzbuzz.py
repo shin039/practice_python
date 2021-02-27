@@ -3,6 +3,7 @@
 maxIdx = 999
 fmtLen = len(str(maxIdx))
 
+#
 for idx in range(1, maxIdx+1):
     # idxをstringにして、rjustで空白フォーマットを調整。end=""で行末の改行を省略。
     print("%s: " % str(idx).rjust(fmtLen), end="")
