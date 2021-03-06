@@ -42,8 +42,8 @@ calcmark = ["+", "-", ""]
 func_num = len(funclist)
 
 for base_no in range(func_num ** 8):
-    calc_key_no = ("00000000" + chgNRadix(base_no, func_num))[-8:]
+    calc_key_no     = ("00000000" + chgNRadix(base_no, func_num))[-8:]
     komachi_express = komachi_disp(calc_key_no)
-    komachi_rslt = eval(komachi_express)
+    komachi_rslt    = eval(komachi_express)
     if komachi_rslt == 10:
         print(komachi_express, "=", komachi_rslt)
