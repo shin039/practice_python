@@ -4,17 +4,21 @@
 # 表示回数
 n = 10
 
-#再帰
+# 再帰
 print("再帰で実現")
+
+
 def fbnc(first, second, num):
     num -= 1
     print(second, end=" ")
     if num <= 0:
         return
     fbnc(second, (first + second), num)
+
+
 fbnc(0, 1, n)
 
-#ループ
+# ループ
 print()
 print("ループで実現")
 start = 1
